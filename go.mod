@@ -1,3 +1,3 @@
-module github.com/alex-shpak/hugo-book
+module github.com/mdfriday/hugo-book
 
 go 1.16
