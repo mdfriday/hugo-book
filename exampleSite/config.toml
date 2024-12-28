@@ -39,7 +39,7 @@ path = 'github.com/mdfriday/hugo-book'
 # [[menu.before]]
 [[menu.after]]
 name = "Blog"
-url = "posts/"
+url = "/posts/"
 weight = 5
 
 [[menu.after]]
