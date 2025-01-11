@@ -70,10 +70,10 @@ weight = 5
   # If the logo is /static/logo.png then the path would be logo.png
   # BookLogo = 'logo.png'
 
-  # (Optional, default docs) Specify root page to render child pages as menu.
+  # (Optional, default book) Specify root page to render child pages as menu.
   # Page is resoled by .GetPage function: https://gohugo.io/functions/getpage/
   # For backward compatibility you can set '*' to render all sections to menu. Acts same as '/'
-  BookSection = 'docs'
+  BookSection = 'book'
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
@@ -102,7 +102,7 @@ weight = 5
   BookSearch = true
 
   # (Optional, default true) Enables comments template on pages
-  # By default partals/docs/comments.html includes Disqus template
+  # By default partals/book/comments.html includes Disqus template
   # See https://gohugo.io/content-management/comments/#configure-disqus
   # Can be overwritten by same param in page frontmatter
   BookComments = true

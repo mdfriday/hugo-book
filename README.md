@@ -141,9 +141,9 @@ disableKinds = ['taxonomy', 'taxonomyTerm']
   # /static/logo.png then the path would be 'logo.png'
   BookLogo = 'logo.png'
 
-  # (Optional, default docs) Specify section of content to render as menu
+  # (Optional, default book) Specify section of content to render as menu
   # You can also set value to "*" to render all sections to menu
-  BookSection = 'docs'
+  BookSection = 'book'
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
@@ -172,7 +172,7 @@ disableKinds = ['taxonomy', 'taxonomyTerm']
   BookSearch = true
 
   # (Optional, default true) Enables comments template on pages
-  # By default partials/docs/comments.html includes Disqus template
+  # By default partials/book/comments.html includes Disqus template
   # See https://gohugo.io/content-management/comments/#configure-disqus
   # Can be overwritten by same param in page frontmatter
   BookComments = true
@@ -197,7 +197,7 @@ Theme supports Hugo's [multilingual mode](https://gohugo.io/content-management/m
 You can specify additional params in the front matter of individual pages:
 
 ```toml
-# Set type to 'docs' if you want to render page outside of configured section or if you render section other than 'docs'
+# Set type to 'book' if you want to render page outside of configured section or if you render section other than 'book'
 type = 'docs'
 
 # Set page weight to re-arrange items in file-tree menu.
