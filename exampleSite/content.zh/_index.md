@@ -1,6 +1,6 @@
 ---
 title: 介绍
-type: book
+type: docs
 ---
 
 # 中文索引页
