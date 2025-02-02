@@ -1,3 +1,3 @@
-module github.com/mdfriday/hugo-book/exampleSite
+module github.com/mdfriday/theme-book/exampleSite
 
 go 1.23.2
